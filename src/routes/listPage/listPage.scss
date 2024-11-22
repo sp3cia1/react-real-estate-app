@@ -1,3 +1,33 @@
 .listPage{
-    
+    display: flex;
+    height: 100%;        
+
+    .listContainer{
+        flex:3;
+        height: 100%;
+
+        .wrapper{
+            height: 100%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            overflow-y: scroll;
+            padding-bottom: 50px;
+
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* Hide scrollbar for Internet Explorer and Edge */
+            -ms-overflow-style: none;
+
+            /* Hide scrollbar for Firefox */
+            scrollbar-width: none;
+        }
+    }
+    .mapContainer{
+        flex:2;
+        background-color: #fcf5f3;
+    }
 }
