@@ -3,7 +3,7 @@ import './map.scss'
 import "leaflet/dist/leaflet.css";
 import Pin from '../pin/pin.jsx';
 
-function Map({items}){
+function Map({items = []}){
   return (
     <MapContainer center={[52.4797, -1.90269]} zoom={7} scrollWheelZoom={false} className='map'>
     <TileLayer
