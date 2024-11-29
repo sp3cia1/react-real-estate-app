@@ -31,14 +31,6 @@ function App() {
           path:"/profile",
           element:<ProfilePage/>
         },
-        // {
-        //   path:"/login",
-        //   element:<Login/>
-        // },
-        // {
-        //   path:"/register",
-        //   element:<Register/>
-        // }
       ]
     }
   ]);
